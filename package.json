@@ -1,0 +1,14 @@
+{
+  "name": "backstage-talks",
+  "version": "1.0.0",
+  "description": "A webpage about different comics",
+  "source": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "parcel": "^2.8.2"
+  }
+}
